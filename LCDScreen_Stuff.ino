@@ -38,7 +38,7 @@ button_state = digitalRead(button_pin); //returns 1 (up) or 0 (down)
 if(button_state == LOW)
 {
   button_count++;
-  pressed(button_count, button_count_memory);
+  // pressed(button_count, button_count_memory);
   Serial.println(button_count);
   Serial.println("bing");
 
